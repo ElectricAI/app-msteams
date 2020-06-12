@@ -1,0 +1,47 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.6/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.6",
+    "version": "0.0.2",
+    "showLoadingIndicator": false,
+    "id": "99950713-dd03-48e3-9214-125fe84583d7",
+    "packageName": "ai.electric.teams.app",
+    "developer": {
+        "name": "Electric AI",
+        "websiteUrl": "https://electric.ai",
+        "privacyUrl": "https://www.electric.ai/privacy-policy",
+        "termsOfUseUrl": "https://www.electric.ai/privacy-policy"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Electric",
+        "full": "Electric ✗ Teams"
+    },
+    "description": {
+        "short": "Provides real-time IT support",
+        "full": "Electric is reinventing how businesses manage their IT security, support, and devices. Through its user friendly interface, Electric streamlines time consuming and business critical IT tasks by providing accessible, lightning-fast support and increased visibility into your IT infrastructure."
+    },
+    "accentColor": "#FF0066",
+    "bots": [
+        {
+            "botId": "152031ff-ffd3-4b97-9876-8a555120a8a8",
+            "scopes": [
+                "personal",
+                "team"
+            ],
+            "supportsFiles": true,
+            "isNotificationOnly": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [],
+    "devicePermissions": [
+        "openExternal",
+        "notifications"
+    ]
+}
